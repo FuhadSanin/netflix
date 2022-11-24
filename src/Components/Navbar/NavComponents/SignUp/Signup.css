@@ -1,0 +1,70 @@
+.signupParentDiv {
+    border: 1px solid rgba(255, 255, 255, 0.318);
+    width: max-content;
+    padding: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 6px;
+    color: rgb(255, 255, 255);
+  }
+  .signupParentDiv img{
+    width: 40px;
+    height: auto;
+    padding-bottom: 30px;
+    padding-left: 63px;
+    padding-top: 10px;
+    
+    display: block;
+  }
+  .signupParentDiv .input {
+    background-color: #111;
+    border: #111;
+    color: white;
+    height: 30px;
+    transition-duration:0.3s ;
+    outline: none;
+  }
+
+  .signupParentDiv .input:hover{
+    border-bottom:1px solid rgba(255, 255, 255, 0.508);
+
+  }
+  
+  .signupParentDiv button {
+    background-color: rgb(255, 0, 0);
+    color: black;
+    border: 1px solid #ff0000;
+    transition-duration: 0.4s;
+    color: white;
+    border-radius: 5px;
+    background-size: 30px;
+
+    padding: 10px 65px;
+    text-shadow: 2px 2px 10px rgb(138, 138, 138);
+  }
+  .signupParentDiv button:hover {
+    background-color: #9b0000; /* Green */
+    border: 1px solid #9b0000;
+    color: rgba(0, 0, 0, 0.804);
+  }
+  
+  .signupParentDiv a {
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    padding-top: 10px;
+  }
+  .signupParentDiv a:hover{
+    color: rgba(255, 255, 255, 0.481);
+    transition-duration: 0.5s;
+  }
+  .login{
+    text-decoration: none;
+    font-size: 13px;
+    color: rgba(255, 255, 255, 0.551);
+  }
+  .login:hover{
+    color: rgba(255, 255, 255, 0.119);
+  }

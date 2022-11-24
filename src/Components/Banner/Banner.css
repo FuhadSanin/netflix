@@ -1,0 +1,47 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.banner{
+    background-size: cover;
+    max-width: 100%;
+    max-height: 400px;
+    color: white;
+
+
+}
+.content p{
+    padding-left: 35px ;
+    text-shadow: 2px 2px 10px black;
+    padding-bottom: 30px;
+}
+.content h1{
+    font-size: 50px;
+    padding-top: 100px ;
+    padding-left: 50px ;
+    text-shadow: 2px 2px 20px black;
+}
+.content button{
+    background-color: rgb(255, 0, 0);
+    color: black;
+    border: 1px solid #ff0000;
+    transition-duration: 0.4s;
+    color: white;
+    border-radius: 5px;
+    background-size: 30px;
+    margin-left: 53px;
+    padding: 10px 22px;
+    text-shadow: 2px 2px 10px rgb(138, 138, 138);
+}
+
+button:hover {
+    background-color: #9b0000; /* Green */
+    border: 1px solid #9b0000;
+    color: rgba(0, 0, 0, 0.804);
+
+  }
+
+.fade_bottom{
+    height: 130px;
+    background-image: linear-gradient(180deg,transparent,rgba(37,37,37,.61),#111);
+}

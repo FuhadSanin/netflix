@@ -1,0 +1,32 @@
+body{
+    background-color: #111;
+}
+
+.title{
+    color: white;
+    padding-left: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-size: 25px;
+}
+.card_image{
+    width: 200px;
+    height: 200px;
+    padding-left: 20px;
+    transition-duration: 0.5s; ;
+    padding-bottom: 10px;
+}
+.posters{
+    display: flex;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+.posters::-webkit-scrollbar{
+    display: none;
+}
+.card_image:hover{
+    filter: brightness(55%);
+    width: 160px;
+    height: 230px;
+    
+}

@@ -1,0 +1,51 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+.Navbar{
+    background-color:#111 ;
+    width: 100%;
+    height: 80px;
+}
+.Main_logo{
+    width: 80px;
+    padding-left: 20px;
+    padding-top:  30px; ;
+
+    
+    display: block;
+
+}
+.right{
+    text-align: right;
+    margin-top: -25px;
+}
+.link{
+    color: rgba(255, 255, 255, 0.636);
+    text-decoration: none;
+    transition-duration: 0.5s;
+    font-size: 13px;
+    margin-right: 20px;
+
+}
+.link:hover{
+    color: rgba(255, 255, 255, 0.233);
+}
+.logout{
+    background-color: rgba(255, 0, 0, 0);
+    color: black;
+    border: 1px solid #ffffff97;
+    transition-duration: 0.4s;
+    color: rgba(255, 255, 255, 0.459);
+    border-radius: 5px;
+    background-size: 30px;
+    margin-right: 10px;
+    padding: 5px 20px;
+}
+.logout:hover{
+  background-color: rgb(28, 28, 28);
+  border: 1px solid rgb(28, 28, 28);
+  color: white;
+}

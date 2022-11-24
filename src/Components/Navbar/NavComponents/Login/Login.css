@@ -1,0 +1,8 @@
+.new-account{
+    font-size: 13px;
+    color: rgba(255, 255, 255, 0.437);
+    margin-left: 20px;
+}
+.new-account:hover{
+    color: rgba(255, 255, 255, 0.262);
+}
